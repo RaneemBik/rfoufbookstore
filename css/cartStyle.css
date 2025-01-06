@@ -1,0 +1,73 @@
+
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #963f7f;
+            color: white;
+            margin: 0;
+            padding: 20px 0;
+        }
+
+        /* Table Styles */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #963f7f;
+            color: white;
+        }
+
+        /* Buttons */
+        .btn-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #963f7f;
+            color: white;
+            border-radius: 5px;
+            margin: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #7b2c61;
+        }
+
+        .remove-link {
+            color: red;
+            text-decoration: none;
+        }
+
+        .remove-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Empty Cart Message */
+        .empty-cart {
+            text-align: center;
+            color: #555;
+            margin: 20px 0;
+            font-size: 18px;
+        }
