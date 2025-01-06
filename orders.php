@@ -2,21 +2,21 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "book";  // Replace with your database name
+$dbname = "book"; 
 
-// Create connection
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
+
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Query to fetch data
+
 $sql = "SELECT * FROM purchased_books";
 $result = $conn->query($sql);
 
-// Check if query was successful
+
 if (!$result) {
     die("Error executing query: " . $conn->error);
 }

@@ -1,5 +1,5 @@
 <?php
-// Ensure session is started only once
+// we make this to ensure that the session starts only one time
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }

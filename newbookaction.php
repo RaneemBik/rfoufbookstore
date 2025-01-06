@@ -12,7 +12,6 @@ $targetDir = "uploads/";
 $fileName = basename($_FILES["fileToUpload"]["name"]);
 $targetFile = $targetDir . $fileName;
 
-// Check if the book already exists
 $query = "SELECT * FROM books WHERE db_name = '$db_name' AND db_author = '$db_author'";
 $result = mysqli_query($con, $query);
 
@@ -21,9 +20,8 @@ if (mysqli_num_rows($result) > 0) {
     exit;
 }
 
-// Handle file upload
 if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $targetFile)) {
-    $path = $fileName; // Save only the filename to the database
+    $path = $fileName; 
     $insertQuery = "INSERT INTO books (db_name, db_author, db_category, db_description, db_price, db_image) 
                     VALUES ('$db_name', '$db_author', '$db_category', '$db_description', '$db_price', '$path')";
 

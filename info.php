@@ -3,7 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Checkout</title>
-<link rel="stylesheet" href="css/infoCSS.css">
+<link rel="stylesheet" href="css/infoCss.css">
 </head>
 <body>
 <div class="row">
@@ -18,7 +18,7 @@
             <input type="text" id="fname" name="txtName" required>
             <label for="email" class="email"><img src="imgs/email.png" width="17px" height="17px"> Email</label>
             <input type="text" id="email" name="txtemail" required>
-            <label for="adr" class="fa fa-address-card-o"><img src="imgs/maps-and-flags.png" width="20px" height="20px"> Address</label>
+            <label for="adr" class="fa fa-address-card-o"><img src="imgs/mapsandflags.png" width="20px" height="20px"> Address</label>
             <input type="text" id="adr" name="txtaddress" required >
             <label for="city" class="fa fa-institution"><img src="imgs/cityscape.png" width="20px" height="20px"> City</label>
             <input type="text" id="city" name="txtcity" required>
@@ -32,8 +32,8 @@
             <div class="icon-container">
               <img src="imgs/card.png" width="53px" height="53px">
               <img src="imgs/money.png" width="55px" height="55px" class="shop">
-              <img src="imgs/credit-card.png" width="55px" height="55px">
-              <img src="imgs/visa (1).png" width="55px" height="55px">
+              <img src="imgs/creditcard.png" width="55px" height="55px">
+              <img src="imgs/visa.png" width="55px" height="55px">
             </div>
             <label for="cname"><img src="imgs/onhand.png" width="20px" height="20px"> Name on Card</label>
             <input type="text" id="cname" name="txtCardName" required>
